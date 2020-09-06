@@ -8,18 +8,42 @@
         <h1>Hello,</h1>
         <h3>
           I'm
-          <span>Tyson Elfors</span> and I am a <span>&lt;Web Developer&gt;</span>. Feel free to take a look around, enjoy your stay.
+          <span>Tyson Elfors</span> and I am a
+          <span>&lt;Web Developer&gt;</span>. Feel free to take a look around, enjoy your stay.
         </h3>
       </div>
       <div class="fixedImage"></div>
     </div>
-    <div class="divider"></div>
-    <div class="welcomeText container">
-      <h1>Full-Stack Web Developer & Designer </h1>
-      <h3>Since beginning my journey as a freelance designer nearly 10 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.</h3>
-      <div class="articles">
-        <Cards/>
+    <div class="contact-button infoBtn">
+      <i class="fas fa-user-alt"></i>
+    </div>
+    <div class="contact-button projectBtn">
+      <i class="fas fa-hammer"></i>
+    </div>
+    <div class="contact-button contactBtn">
+      <i class="far fa-envelope"></i>
+    </div>
+    
+    
+    <div class="welcomeText">
+      <div class="outsideFooter">
+        <h1>Full-Stack Web Developer & Designer</h1>
+        <h3>Since beginning my journey as a freelance designer nearly 10 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.</h3>
+        <div class="articles">
+          <Cards />
+        </div>
+        <h1>Recent Work</h1>
+        <h3>
+          Here are a few projects I've worked on recently. Want to see more?
+          <a href="mailto: tyelf22@gmail.com">
+            <span>Email me.</span>
+          </a>
+        </h3>
+        <div class="articles">
+          <ProjectCards />
+        </div>
       </div>
+      <Footer />
     </div>
   </v-container>
 </template>
@@ -30,7 +54,7 @@ export default {
     return {
       title: "Tyson Elfors",
     };
-  }
+  },
 };
 </script>
 
@@ -52,7 +76,7 @@ export default {
   transform: translate(-50%, 0);
   width: 1000px;
   height: 1025px;
-  background-color: #EA178C;
+  background-color: #ea178c;
   opacity: 0.6;
   border-radius: 40%;
   z-index: 99;
@@ -108,20 +132,74 @@ export default {
   color: #ea178c;
 }
 
+/* Buttons */
+
+.infoBtn {
+  top: 40%;
+}
+
+.projectBtn {
+  top: 50%;
+}
+
+.contactBtn {
+  top: 60%;
+}
+
 .divider {
   position: fixed;
-  top: 50%;
   left: 50%;
   transform: translate(-50%, 0);
   height: 10px;
-  width: 40px;
+  width: 30px;
   background: #ea178c;
 }
 
+.contact-button {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: white;
+  padding: 5px 5px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.contact-button{
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0px 0px 0px 2px #ea178c;
+}
+
+.contact-button i {
+  color: white;
+  background: #ea178c;
+  border-radius: 50px;
+  padding: 10px;
+  font-size: 22px;
+}
+
+.contact-button:hover {
+  box-shadow: none;
+  cursor: pointer;
+  transform: translate(-50%, 0);
+}
+
+/* .contact-button:hover .contact-button__icon {
+  transform:scale(0.9);
+} */
+
+/* End Buttons */
+
 .welcomeText {
   width: 50%;
+  /* padding: 50px; */
+  height: auto;
+}
+
+.outsideFooter{
   padding: 50px;
-  height: 2000px;
 }
 
 .welcomeText h1 {
@@ -131,14 +209,21 @@ export default {
 
 .welcomeText h3 {
   font-weight: 400;
+  text-align: center;
+}
+
+.welcomeText a {
+  text-decoration: none;
+}
+
+.welcomeText span {
+  color: #ea178c;
 }
 
 .articles {
   display: flex;
   justify-content: center;
 }
-
-
 
 /* Media Query */
 @media only screen and (max-width: 500px) {
@@ -147,61 +232,56 @@ export default {
   }
 }
 
-
-
 /* Media Query */
 @media only screen and (max-width: 800px) {
-.mainCont {
-  display: block;
+  .mainCont {
+    display: block;
+  }
 
+  /* Waves */
+  .wave {
+    top: -920px;
+  }
+
+  .welcomeImage {
+    width: 100%;
+    height: 100%;
+  }
+
+  .fixedImage {
+    height: 500px;
+    width: 100%;
+    position: absolute;
+  }
+
+  .title {
+    position: static;
+    margin: 30px auto 0;
+    width: 100%;
+    padding: 0 50px;
+  }
+
+  .title h1 {
+    font-size: 50px;
+    position: relative;
+  }
+
+  .divider {
+    position: absolute;
+    top: 480px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 40px;
+    width: 10px;
+    background: #ea178c;
+  }
+
+  .welcomeText {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 140px;
+    height: auto;
+  }
 }
-
-/* Waves */
-.wave {
-  top: -920px;
-}
-
-.welcomeImage {
-  width: 100%;
-  height: 100%;
-}
-
-.fixedImage {
-  height: 500px;
-  width: 100%;
-  position: absolute;
-}
-
-.title {
-  position: static;
-  margin: 30px auto 0;
-  width: 100%;
-  padding: 0 50px;
-}
-
-.title h1 {
-  font-size: 50px;
-  position: relative;
-}
-
-
-.divider {
-  position: absolute;
-  top: 480px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  height: 40px;
-  width: 10px;
-  background: #ea178c;
-}
-
-.welcomeText {
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 140px;
-  height: auto;
-}
-}
-
 </style>
 
