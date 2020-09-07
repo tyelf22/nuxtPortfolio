@@ -45,6 +45,7 @@ export default {
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
+  margin-bottom: 100px;
 }
 
 .card{

@@ -31,6 +31,9 @@ export default {
     script: [
       {
         src: 'https://kit.fontawesome.com/fa86e89c60.js'
+      },
+      {
+        src: 'https://www.powr.io/powr.js?platform=html'
       } 
     ]
   },

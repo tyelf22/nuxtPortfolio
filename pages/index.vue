@@ -15,22 +15,22 @@
       <div class="fixedImage"></div>
     </div>
     <div class="contact-button infoBtn">
-      <i class="fas fa-user-alt"></i>
+      <a href="#info"><i class="fas fa-user-alt"></i></a> 
     </div>
     <div class="contact-button projectBtn">
-      <i class="fas fa-hammer"></i>
+     <a href="#projCards"><i class="fas fa-hammer"></i></a> 
     </div>
     <div class="contact-button contactBtn">
-      <i class="far fa-envelope"></i>
+      <a href="#form"><i class="far fa-envelope"></i></a> 
     </div>
     
     
-    <div class="welcomeText">
+    <div class="welcomeText" id="info">
       <div class="outsideFooter">
         <h1>Full-Stack Web Developer & Designer</h1>
         <h3>Since beginning my journey as a freelance designer nearly 10 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.</h3>
         <div class="articles">
-          <Cards />
+          <Cards/>
         </div>
         <h1>Recent Work</h1>
         <h3>
@@ -39,11 +39,16 @@
             <span>Email me.</span>
           </a>
         </h3>
-        <div class="articles">
-          <ProjectCards />
+        <div class="articles projCards">
+          <ProjectCards id="projCards" />
+        </div>
+        <div class="contact">
+          <ContactUs id="form" />
         </div>
       </div>
-      <Footer />
+      <div class="form">
+        <Footer />
+      </div>
     </div>
   </v-container>
 </template>
@@ -220,10 +225,16 @@ export default {
   color: #ea178c;
 }
 
+.projCards {
+  margin-bottom: 100px;
+}
+
 .articles {
   display: flex;
   justify-content: center;
 }
+
+
 
 /* Media Query */
 @media only screen and (max-width: 500px) {

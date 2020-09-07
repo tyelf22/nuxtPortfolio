@@ -13,4 +13,8 @@ export default {
 
 <style>
 
+html {
+  scroll-behavior: smooth;
+}
+
 </style>

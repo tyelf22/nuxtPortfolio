@@ -55,6 +55,62 @@
         <a href="#"><i class="fas fa-link fa-2x"></i></a>
       </div>
     </div>
+
+        <div class="first hero">
+      <img
+        class="hero-profile-img"
+        src="https://athemes.com/wp-content/uploads/Big-Slam-Basketball-WordPress-Theme.jpg"
+        alt
+      />
+      <div class="hero-description-bk"></div>
+      <div class="hero-logo">
+        <img
+          src="https://www.yadatov.com/wp-content/uploads/2019/12/Yadatov-Full-Logo-WhiteGold-square.png"
+          style="background:black"
+          alt
+        />
+      </div>
+      <div class="hero-description">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="hero-date">
+        <p>20.02.2019</p>
+      </div>
+      <div class="hero-btn">
+        <a href="#"><i class="fab fa-github fa-2x"></i></a>
+      </div>
+      <div class="second-btn">
+        <a href="#"><i class="fas fa-link fa-2x"></i></a>
+      </div>
+    </div>
+
+        <div class="first hero">
+      <img
+        class="hero-profile-img"
+        src="https://athemes.com/wp-content/uploads/Big-Slam-Basketball-WordPress-Theme.jpg"
+        alt
+      />
+      <div class="hero-description-bk"></div>
+      <div class="hero-logo">
+        <img
+          src="https://www.yadatov.com/wp-content/uploads/2019/12/Yadatov-Full-Logo-WhiteGold-square.png"
+          style="background:black"
+          alt
+        />
+      </div>
+      <div class="hero-description">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="hero-date">
+        <p>20.02.2019</p>
+      </div>
+      <div class="hero-btn">
+        <a href="#"><i class="fab fa-github fa-2x"></i></a>
+      </div>
+      <div class="second-btn">
+        <a href="#"><i class="fas fa-link fa-2x"></i></a>
+      </div>
+    </div>
   </div>
 </template>
 
