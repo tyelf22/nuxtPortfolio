@@ -1,6 +1,6 @@
 <template>
   <v-container class="postInfo">
-    <v-btn to='/' class="ma-2" fab small outlined color="#EA178C"><arrowLeft class="largeIcon"/></v-btn>
+    <v-btn to='/' class="ma-2" fab small outlined color="#F22F46"><arrowLeft class="largeIcon"/></v-btn>
     <p>Home > Posts > Post {{post.id}}</p>
       <v-img class="bannerImg" height="50vh" :src=post.imageUrl></v-img>
       <h1>{{post.title}}</h1>

@@ -39,7 +39,7 @@ export default {
   -o-transform: rotate(-5.2deg);
   -ms-transform: rotate(-5.2deg);
   transform: rotate(-5.2deg);
-  background:#ea178c;
+  background:#F22F46;
   opacity: .8;
   color: rgb(248, 248, 255);
   padding: 250px 0 150px 0;
@@ -60,14 +60,14 @@ footer .slanted {
   height: 350px;
   position: relative;
   z-index: -1;
-  background-image: linear-gradient(-7.4deg, #ea178c 70%, white calc(70% + 2px)); 
-  opacity: 0.75;
+  background-image: linear-gradient(-7.4deg, #F22F46 70%, white calc(70% + 2px)); 
+  opacity: 0.9;
   margin-top: -300px;
 }
 
 footer .bottomFoot{
     width: 100%;
-    background: #ea178c;
+    background: #F22F46;
     text-align: center;
     color: rgb(248, 248, 255);
 }

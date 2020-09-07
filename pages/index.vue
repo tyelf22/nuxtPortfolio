@@ -28,7 +28,10 @@
     <div class="welcomeText" id="info">
       <div class="outsideFooter">
         <h1>Full-Stack Web Developer & Designer</h1>
-        <h3>Since beginning my journey as a freelance designer nearly 10 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.</h3>
+        <h3>A Full-Stack Web Developer with 4+ years in web development, 2 years in software development, and a good eye for design. Excels at
+            Web application development, including using the agile process with Git and modern web tools. Passionate about
+            all things technology, with an unmatched willingness to continuously learn.
+        </h3>
         <div class="articles">
           <Cards/>
         </div>
@@ -81,7 +84,7 @@ export default {
   transform: translate(-50%, 0);
   width: 1000px;
   height: 1025px;
-  background-color: #ea178c;
+  background-color: #F22F46;
   opacity: 0.6;
   border-radius: 40%;
   z-index: 99;
@@ -134,7 +137,7 @@ export default {
 }
 
 .title span {
-  color: #ea178c;
+  color: #F22F46;
 }
 
 /* Buttons */
@@ -157,7 +160,7 @@ export default {
   transform: translate(-50%, 0);
   height: 10px;
   width: 30px;
-  background: #ea178c;
+  background: #F22F46;
 }
 
 .contact-button {
@@ -174,12 +177,12 @@ export default {
 }
 .contact-button{
   transition: all 0.5s ease-in-out;
-  box-shadow: 0px 0px 0px 2px #ea178c;
+  box-shadow: 0px 0px 0px 2px #F22F46;
 }
 
 .contact-button i {
   color: white;
-  background: #ea178c;
+  background: #F22F46;
   border-radius: 50px;
   padding: 10px;
   font-size: 22px;
@@ -222,7 +225,7 @@ export default {
 }
 
 .welcomeText span {
-  color: #ea178c;
+  color: #F22F46;
 }
 
 .projCards {
@@ -284,7 +287,7 @@ export default {
     transform: translate(-50%, 0);
     height: 40px;
     width: 10px;
-    background: #ea178c;
+    background: #F22F46;
   }
 
   .welcomeText {

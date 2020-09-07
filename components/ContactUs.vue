@@ -1,5 +1,5 @@
 <template>
-    <div class="powr-form-builder form" id="3a4a9d97_1599422770"></div>
+    <iframe src="https://www.powr.io/form-builder/u/16acb237_1599444243#platform=iframe" style="width:100%;" height="680px" frameborder="0"></iframe>
     <!-- <v-app>
         <v-form
             ref="form"
@@ -14,7 +14,7 @@
             label="Name"
             required
             name="user_name"
-            color="#ea178c"
+            color="#F22F46"
             ></v-text-field>
 
             <v-text-field
@@ -23,7 +23,7 @@
             label="E-mail"
             required
             name="user_email"
-            color="#ea178c"
+            color="#F22F46"
             ></v-text-field>
 
             <v-textarea
@@ -31,11 +31,11 @@
             clear-icon="cancel"
             label="Message"
             :counter="500"
-            color="#ea178c"
+            color="#F22F46"
             ></v-textarea>
 
             <v-btn
-            color="#ea178c"
+            color="#F22F46"
             class="mr-4"
             outlined
             rounded

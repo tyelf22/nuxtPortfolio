@@ -3,29 +3,29 @@
     <div class="card frontCard">
       <i class="icon fas fa-code"></i>
       <h3>Front-End</h3>
-      <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+      <p>I like to code things from scratch, and enjoy bringing ideas to life.</p>
       <h4>Languages I speak:</h4>
-      <p>HTML, Pug, Slim, CSS, Sass, Less</p>
-      <h4>Tools:</h4>
-      <p>Balsamiq Mockups, Figma, Invision, Marvel, XD, Sketch, Webflow, Zeplin</p>
+      <p>Javascript, HTML, CSS</p>
+      <h4>Tools / Frameworks:</h4>
+      <p>Vue.js, React, SCSS, LESS, BootStrap, Flexbox, CSS Grid, Vuex, Vuetify, Github</p>
     </div>
     <div class="card backCard">
       <i class="icon fas fa-server"></i>
       <h3>Back-End</h3>
-      <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+      <p>I like solving problems, learning new languages, and using new tools.</p>
       <h4>Languages I speak:</h4>
-      <p>NodeJS, Python, SQL, PHP</p>
-      <h4>Tools:</h4>
-      <p>Balsamiq Mockups, Figma, Invision, Marvel, XD, Sketch, Webflow, Zeplin</p>
+      <p>NodeJS, Python, SQL, NoSQL, PHP, C#</p>
+      <h4>Tools / Frameworks:</h4>
+      <p>Express, SQL Server, MongoDB, Linux, Git, Netlify, Heroku, Bluehost, Docker, Postman</p>
     </div>
       <div class="card desCard">
         <i class="icon fas fa-pencil-ruler"></i>
       <h3>Design</h3>
       <p>I value simple content structure, clean design patterns, and thoughtful interactions.</p>
       <h4>Things I enjoy designing:</h4>
-      <p>UX, UI, Web, Mobile, Apps, Logos</p>
+      <p>Web, Mobile, Apps, UX, UI, Logos</p>
       <h4>Tools:</h4>
-      <p>Balsamiq Mockups, Figma, Invision, Marvel, XD, Sketch, Webflow, Zeplin</p>
+      <p>Photoshop, Illustrator, InDesign, XD, Sketch, Invision, Hype</p>
     </div>
   </div>
 </template>
@@ -53,12 +53,13 @@ export default {
   width: 100%;
   text-align: center;
   padding: 1rem;
-  border-radius: 30px;
-  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+  border: 1px solid #e3e8ee;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(50, 50, 93, 0.1);
 }
 
 .card .icon {
-  color: #EA178C;
+  color: #F22F46;
   font-size: 70px;
   margin: 5px 0 20px 0;
 }
@@ -70,7 +71,7 @@ export default {
 }
 
 .card h4 {
-  color: #EA178C;
+  color: #F22F46;
   margin-top: 20px;
 }
 
