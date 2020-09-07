@@ -1,15 +1,12 @@
 <template>
   <footer>
-    <!-- <div class="bottom-contain">
-      <section class="newsletter">
-        <div class="newsletter-inner">
-          <div class="container">
-            <h3>Sign up for our monthly newsletter...</h3>
-          </div>
-        </div>
-      </section>
-    </div> -->
     <div class="slanted"></div>
+      <div class="socialMedia">
+        <a href="https://github.com/tyelf22" target="_blank"><i id="github" class="fab fa-github fa-3x"></i></a> 
+        <a href="https://www.linkedin.com/in/tysonelfors/" target="_blank"><i id="linkedin" class="fab fa-linkedin-in fa-3x"></i></a> 
+        <a href="https://www.facebook.com/tyson.elfors" target="_blank"><i id="facebook" class="fab fa-facebook fa-3x"></i></a> 
+        <a href="https://drive.google.com/file/d/1J4kd2_4wFYu15oQJjuKQqHh_FFkaYPlX/view?usp=sharing" target="_blank"><i id="resume" class="far fa-file fa-3x"></i></a> 
+      </div>
     <div class="bottomFoot">
         <p>code and design by: &copy;{{d.getFullYear()}} Tyson Elfors</p>
     </div>
@@ -25,37 +22,6 @@ export default {
 </script>
 
 <style scoped>
-
-/* SLANTED AREA */
-
-/* .bottom-contain {
-  padding-top: 300px;
-  overflow: hidden;
-}
-
-.newsletter {
-  -webkit-transform: rotate(-5.2deg);
-  -moz-transform: rotate(-5.2deg);
-  -o-transform: rotate(-5.2deg);
-  -ms-transform: rotate(-5.2deg);
-  transform: rotate(-5.2deg);
-  background:#F22F46;
-  opacity: .8;
-  color: rgb(248, 248, 255);
-  padding: 250px 0 150px 0;
-  text-align: center;
-  margin: -250px -50px -150px -50px;
-}
-
-.newsletter-inner {
-  margin: 0 50px;
-  -webkit-transform: rotate(5.2deg);
-  -moz-transform: rotate(5.2deg);
-  -o-transform: rotate(5.2deg);
-  -ms-transform: rotate(5.2deg);
-  transform: rotate(5.2deg);
-} */
-
 footer .slanted {
   height: 350px;
   position: relative;
@@ -65,10 +31,49 @@ footer .slanted {
   margin-top: -300px;
 }
 
-footer .bottomFoot{
-    width: 100%;
-    background: #F22F46;
-    text-align: center;
-    color: rgb(248, 248, 255);
+footer .socialMedia {
+  margin: 0 auto;
+  text-align: center;
+  background: #F22F46;
+  opacity: 0.9;
+  color: white;
 }
+
+footer .socialMedia i {
+  margin: 0 5% 50px;
+}
+
+footer .socialMedia a {
+  text-decoration: none;
+  color: white;
+}
+
+footer #github:hover{
+  color: #24292E;
+  cursor: pointer;
+  transition: 0.1s ease-in;
+}
+footer #linkedin:hover{
+  color: #1F77B5;
+  cursor: pointer;
+  transition: 0.1s ease-in;
+}
+footer #facebook:hover{
+  color: #1873EB;
+  cursor: pointer;
+  transition: 0.1s ease-in;
+}
+footer #resume:hover{
+  color: black;
+  cursor: pointer;
+  transition: 0.1s ease-in;
+}
+
+footer .bottomFoot{
+  width: 100%;
+  background: #F22F46;
+  text-align: center;
+  color: rgb(248, 248, 255);
+}
+
 </style>

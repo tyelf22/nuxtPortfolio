@@ -75,6 +75,8 @@ export default {
   position: relative;
 }
 
+
+
 /* Waves */
 .wave {
   position: absolute;
@@ -193,11 +195,6 @@ export default {
   cursor: pointer;
   transform: translate(-50%, 0);
 }
-
-/* .contact-button:hover .contact-button__icon {
-  transform:scale(0.9);
-} */
-
 /* End Buttons */
 
 .welcomeText {
@@ -242,7 +239,7 @@ export default {
 /* Media Query */
 @media only screen and (max-width: 500px) {
   .title h3 {
-    font-size: 28px;
+    font-size: 24px;
   }
 }
 
@@ -250,6 +247,10 @@ export default {
 @media only screen and (max-width: 800px) {
   .mainCont {
     display: block;
+  }
+
+  .outsideFooter{
+    padding: 60px 10px 0;
   }
 
   /* Waves */
@@ -289,6 +290,57 @@ export default {
     width: 10px;
     background: #F22F46;
   }
+
+
+/* Buttons */
+.infoBtn {
+  top: 475px;
+  left: 30%;
+  
+}
+
+.projectBtn {
+  top: 475px;
+  left: 50%;
+  
+}
+
+.contactBtn {
+  top: 475px;
+  left: 70%;
+  
+}
+
+.contact-button {
+  position: absolute;
+  color: white;
+  padding: 5px 5px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.contact-button{
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0px 0px 0px 2px #F22F46;
+}
+
+.contact-button i {
+  color: white;
+  background: #F22F46;
+  border-radius: 50px;
+  padding: 10px;
+  font-size: 22px;
+}
+
+.contact-button:hover {
+  box-shadow: none;
+  cursor: pointer;
+  transform: translate(-50%, 0);
+}
+
+/* End Buttons */
 
   .welcomeText {
     width: 100%;

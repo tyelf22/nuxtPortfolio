@@ -13,12 +13,12 @@
         <p>04.06.2020</p>
       </div>
       <div class="hero-btn">
-        <a href="https://github.com/tyelf22/schedulingAppFrontEnd.git">
+        <a target="_blank" href="https://github.com/tyelf22/schedulingAppFrontEnd.git">
           <i class="fab fa-github fa-2x"></i>
         </a>
       </div>
       <div class="second-btn">
-        <a href="https://scheduling-aid.netlify.app/">
+        <a target="_blank" href="https://scheduling-aid.netlify.app/">
           <i class="fas fa-link fa-2x"></i>
         </a>
       </div>
@@ -37,12 +37,12 @@
         <p>08.01.2020</p>
       </div>
       <div class="hero-btn">
-        <a href="https://github.com/tyelf22/SC-Builders-Boot">
+        <a target="_blank" href="https://github.com/tyelf22/SC-Builders-Boot">
           <i class="fab fa-github fa-2x"></i>
         </a>
       </div>
       <div class="second-btn">
-        <a href="https://sc.builders/">
+        <a target="_blank" href="https://sc.builders/">
           <i class="fas fa-link fa-2x"></i>
         </a>
       </div>
@@ -61,12 +61,12 @@
         <p>10.10.2019</p>
       </div>
       <div class="hero-btn">
-        <a href="https://github.com/tyelf22/jay-boyce">
+        <a target="_blank" href="https://github.com/tyelf22/jay-boyce">
           <i class="fab fa-github fa-2x"></i>
         </a>
       </div>
       <div class="second-btn">
-        <a href="https://jayboyce.netlify.app/">
+        <a target="_blank" href="https://jayboyce.netlify.app/">
           <i class="fas fa-link fa-2x"></i>
         </a>
       </div>
@@ -85,12 +85,12 @@
         <p>04.22.2019</p>
       </div>
       <div class="hero-btn">
-        <a href="https://github.com/tyelf22/vue-NbaStatTracker">
+        <a target="_blank" href="https://github.com/tyelf22/vue-NbaStatTracker">
           <i class="fab fa-github fa-2x"></i>
         </a>
       </div>
       <div class="second-btn">
-        <a href="https://nbastattracker.netlify.app/">
+        <a target="_blank" href="https://nbastattracker.netlify.app/">
           <i class="fas fa-link fa-2x"></i>
         </a>
       </div>
@@ -117,12 +117,12 @@
         <p>03.15.2020</p>
       </div>
       <div class="hero-btn">
-        <a href="https://github.com/tyelf22/vue-werewolf">
+        <a target="_blank" href="https://github.com/tyelf22/vue-werewolf">
           <i class="fab fa-github fa-2x"></i>
         </a>
       </div>
       <div class="second-btn">
-        <a href="https://werewolf-app-3780.web.app/">
+        <a target="_blank" href="https://werewolf-app-3780.web.app/">
           <i class="fas fa-link fa-2x"></i>
         </a>
       </div>
@@ -149,12 +149,12 @@
         <p>03.15.2020</p>
       </div>
       <div class="hero-btn">
-        <a href="https://github.com/DGM3780/react-tyelf22">
+        <a target="_blank" href="https://github.com/DGM3780/react-tyelf22">
           <i class="fab fa-github fa-2x"></i>
         </a>
       </div>
       <div class="second-btn">
-        <a href="https://te-react-weather.netlify.app/">
+        <a target="_blank" href="https://te-react-weather.netlify.app/">
           <i class="fas fa-link fa-2x"></i>
         </a>
       </div>
@@ -181,12 +181,12 @@
         <p>03.15.2020</p>
       </div>
       <div class="hero-btn">
-        <a href="https://github.com/tyelf22/nuxtBlog.git">
+        <a target="_blank" href="https://github.com/tyelf22/nuxtBlog.git">
           <i class="fab fa-github fa-2x"></i>
         </a>
       </div>
       <div class="second-btn">
-        <a href="https://blog.tysonelfors.com/">
+        <a target="_blank" href="https://blog.tysonelfors.com/">
           <i class="fas fa-link fa-2x"></i>
         </a>
       </div>
@@ -258,6 +258,11 @@ export default {
 }
 .blogCard{
   background-image: linear-gradient(0deg, black, #F53095);
+}
+
+.projCards i:hover {
+  color: #24292E;
+  transition: 0.1s ease-in;
 }
 
 .hero-logo {
