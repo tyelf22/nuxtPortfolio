@@ -201,7 +201,7 @@
       />
       <div class="hero-description-bk chloeCard"></div>
       <div class="hero-logo">
-        <img src="../assets/images/ccLogo.png" style="background: black" alt />
+        <img src="../assets/images/ccLogo.PNG" style="background: black" alt />
       </div>
       <div class="hero-description">
         <p>
