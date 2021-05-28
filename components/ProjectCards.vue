@@ -163,7 +163,7 @@
     <div class="first hero">
       <img
         class="hero-profile-img"
-        src="../assets/images/sarahPortfolio.png"
+        src="../assets/images/sarahPortfolio.PNG"
         alt
       />
       <div class="hero-description-bk sarahCard"></div>
