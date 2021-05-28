@@ -4,7 +4,7 @@
       <img class="hero-profile-img" src="../assets/images/uvuImg.png" alt />
       <div class="hero-description-bk uvuCard"></div>
       <div class="hero-logo">
-        <img src="../assets/images/uvuLogo.png" style="background:black" alt />
+        <img src="../assets/images/uvuLogo.png" style="background: black" alt />
       </div>
       <div class="hero-description">
         <p>UVU Scheduling application for staff, using ReactJS.</p>
@@ -13,7 +13,10 @@
         <p>04.06.2020</p>
       </div>
       <div class="hero-btn">
-        <a target="_blank" href="https://github.com/tyelf22/schedulingAppFrontEnd.git">
+        <a
+          target="_blank"
+          href="https://github.com/tyelf22/schedulingAppFrontEnd.git"
+        >
           <i class="fab fa-github fa-2x"></i>
         </a>
       </div>
@@ -28,7 +31,7 @@
       <img class="hero-profile-img" src="../assets/images/scImg.png" alt />
       <div class="hero-description-bk scCard"></div>
       <div class="hero-logo">
-        <img src="../assets/images/scLogo.png" style="background:black" alt />
+        <img src="../assets/images/scLogo.png" style="background: black" alt />
       </div>
       <div class="hero-description">
         <p>Development and Design of SC Builders Construction.</p>
@@ -52,7 +55,7 @@
       <img class="hero-profile-img" src="../assets/images/jayImg.png" alt />
       <div class="hero-description-bk jayCard"></div>
       <div class="hero-logo">
-        <img src="../assets/images/jayLogo.png" style="background:black" alt />
+        <img src="../assets/images/jayLogo.png" style="background: black" alt />
       </div>
       <div class="hero-description">
         <p>Design and Development for a Utah Author.</p>
@@ -76,7 +79,7 @@
       <img class="hero-profile-img" src="../assets/images/nbaImg.png" alt />
       <div class="hero-description-bk ballCard"></div>
       <div class="hero-logo">
-        <img src="../assets/images/nbaLogo.png" style="background:black" alt />
+        <img src="../assets/images/nbaLogo.png" style="background: black" alt />
       </div>
       <div class="hero-description">
         <p>Track and compare NBA player stats, using Vuejs and Vuetify.</p>
@@ -106,7 +109,7 @@
       <div class="hero-logo">
         <img
           src="../assets/images/werewolfLogo.png"
-          style="background:black"
+          style="background: black"
           alt
         />
       </div>
@@ -129,16 +132,12 @@
     </div>
 
     <div class="first hero">
-      <img
-        class="hero-profile-img"
-        src="../assets/images/weatherImg.png"
-        alt
-      />
+      <img class="hero-profile-img" src="../assets/images/weatherImg.png" alt />
       <div class="hero-description-bk weatherCard"></div>
       <div class="hero-logo">
         <img
           src="../assets/images/weatherLogo.png"
-          style="background:black"
+          style="background: black"
           alt
         />
       </div>
@@ -160,19 +159,75 @@
       </div>
     </div>
 
-        <div class="first hero">
+    <!-- Sarah portfolio -->
+    <div class="first hero">
       <img
         class="hero-profile-img"
-        src="../assets/images/blogImg.png"
+        src="../assets/images/SarahPortfolio.png"
         alt
       />
-      <div class="hero-description-bk blogCard"></div>
+      <div class="hero-description-bk sarahCard"></div>
       <div class="hero-logo">
         <img
-          src="../assets/images/myBit.png"
-          style="background:black"
+          src="../assets/images/SarahLogo1.png"
+          style="background: white"
           alt
         />
+      </div>
+      <div class="hero-description">
+        <p>Developed portfolio site for a colleague</p>
+      </div>
+      <div class="hero-date">
+        <p>05.28.2021</p>
+      </div>
+      <div class="hero-btn">
+        <a target="_blank" href="https://github.com/tyelf22/sarahPortfolio.git">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+      </div>
+      <div class="second-btn">
+        <a target="_blank" href="https://sarahcallison.com/">
+          <i class="fas fa-link fa-2x"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Chloe portfolio -->
+    <div class="first hero">
+      <img
+        class="hero-profile-img"
+        src="../assets/images/ccPortfolio.png"
+        alt
+      />
+      <div class="hero-description-bk chloeCard"></div>
+      <div class="hero-logo">
+        <img src="../assets/images/ccLogo.png" style="background: black" alt />
+      </div>
+      <div class="hero-description">
+        <p>
+          Created E-portfolio for SLCC student
+        </p>
+      </div>
+      <div class="hero-date">
+        <p>05.30.2021</p>
+      </div>
+      <div class="hero-btn">
+        <a target="_blank" href="https://github.com/tyelf22/CCPortfolio.git">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+      </div>
+      <div class="second-btn">
+        <a target="_blank" href="https://chloecoon.netlify.app/">
+          <i class="fas fa-link fa-2x"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="first hero">
+      <img class="hero-profile-img" src="../assets/images/blogImg.png" alt />
+      <div class="hero-description-bk blogCard"></div>
+      <div class="hero-logo">
+        <img src="../assets/images/myBit.png" style="background: black" alt />
       </div>
       <div class="hero-description">
         <p>Take a look at my blog, built with Nuxt.</p>
@@ -253,15 +308,21 @@ export default {
 .werewolfCard {
   background-image: linear-gradient(0deg, black, orange);
 }
-.weatherCard{
-  background-image: linear-gradient(0deg, black, #FCDBEA);
+.weatherCard {
+  background-image: linear-gradient(0deg, black, #fcdbea);
 }
-.blogCard{
-  background-image: linear-gradient(0deg, black, #F53095);
+.sarahCard {
+  background-image: linear-gradient(0deg, black, #d3b4f8);
+}
+.chloeCard {
+  background-image: linear-gradient(0deg, black, #404459);
+}
+.blogCard {
+  background-image: linear-gradient(0deg, black, #f53095);
 }
 
 .projCards i:hover {
-  color: #24292E;
+  color: #24292e;
   transition: 0.1s ease-in;
 }
 
