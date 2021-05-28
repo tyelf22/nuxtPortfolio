@@ -196,7 +196,7 @@
     <div class="first hero">
       <img
         class="hero-profile-img"
-        src="../assets/images/ccPortfolio.png"
+        src="../assets/images/ccPortfolio.PNG"
         alt
       />
       <div class="hero-description-bk chloeCard"></div>
