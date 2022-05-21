@@ -5,7 +5,7 @@
         <a href="https://github.com/tyelf22" target="_blank"><i id="github" class="fab fa-github fa-3x"></i></a> 
         <a href="https://www.linkedin.com/in/tysonelfors/" target="_blank"><i id="linkedin" class="fab fa-linkedin-in fa-3x"></i></a> 
         <a href="https://www.facebook.com/tyson.elfors" target="_blank"><i id="facebook" class="fab fa-facebook fa-3x"></i></a> 
-        <a href="https://drive.google.com/file/d/1J4kd2_4wFYu15oQJjuKQqHh_FFkaYPlX/view?usp=sharing" target="_blank"><i id="resume" class="far fa-file fa-3x"></i></a> 
+        <a href="https://drive.google.com/file/d/1pk2PRH3KmACFkz54BBcZiL9KbWLK53Fy/view?usp=sharing" target="_blank"><i id="resume" class="far fa-file fa-3x"></i></a> 
       </div>
     <div class="bottomFoot">
         <p>code and design by: &copy;{{d.getFullYear()}} Tyson Elfors</p>
