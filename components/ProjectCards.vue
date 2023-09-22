@@ -186,7 +186,7 @@
         </a>
       </div>
       <div class="second-btn">
-        <a target="_blank" href="https://sarahcallison.com/">
+        <a target="_blank" href="https://sarahcallison.design/">
           <i class="fas fa-link fa-2x"></i>
         </a>
       </div>
@@ -241,7 +241,7 @@
         </a>
       </div>
       <div class="second-btn">
-        <a target="_blank" href="https://blog.tysonelfors.com/">
+        <a target="_blank" href="https://blog-tysonelfors.netlify.app/">
           <i class="fas fa-link fa-2x"></i>
         </a>
       </div>
